@@ -1,0 +1,9 @@
+a{
+    color: pink;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a:visited{
+    color: pink;
+}

@@ -1,0 +1,20 @@
+leaderboard:
+    resource: "@LeaderboardBundle/Resources/config/routing.yml"
+    prefix:   /
+
+leaderboard:
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
+
+deathsmiles:
+    path:     /deathsmiles
+    defaults: { _controller: LeaderboardBundle:Pink:deathsmiles}
+
+crimzon_clover:
+    path:     /crimzon_clover/{lien}
+    defaults: { _controller: LeaderboardBundle:NotPink:crimzonClover}
+
+ikaruga:
+    path:     /ikaruga/{color}
+    defaults: { _controller: LeaderboardBundle:NotPink:ikaruga}

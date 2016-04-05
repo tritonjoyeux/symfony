@@ -1,0 +1,3 @@
+leaderboard_homepage:
+    path:     /
+    defaults: { _controller: LeaderboardBundle:Default:index }
